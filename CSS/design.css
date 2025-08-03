@@ -1,5 +1,16 @@
+/* Estilo geral da página*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/*Título principal*/
 h1 {
-    color: red;
+    color: hsl(239, 44%, 46%);
     display: flex;
     justify-content: center;
 }
