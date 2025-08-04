@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +7,45 @@
     <link rel="stylesheet" href="CSS/design.css">
 </head>
 <body>
+    <!--Alternador de tema-->
+<input type="checkbox" id="theme-toggle" />
+<label for="theme-toggle" class="theme-label">Alternar Tema</label>
+
+    
 <header> <!--Título da página-->
-<h1>Currículo - Samuel Sobreira</h1> 
-    <p>Email: samuelsobreira90@gmail.com <br> 
+<h1>Currículo - Samuel Sobreira</h1> <!--<h1>=Título principal da página, h2, h3... 
+    são os os subtítulos menores dentro dos anteriores-->
+    <p class="Informação">
+    Email: samuelsobreira90@gmail.com <br> 
     Telefone: 85 98416-3358 <br>
-    Idade: 25 anos
+    Idade: 25 anos </p> <!--<p>=Representa um paragráfo de texto, útil para 
+        incluir textos.-->
 </header>
 
-<section> <!--Meu objetivo-->
-<h2>Objetivo</h2>
+<main>
+<section class="card"> <!--<section> Divide o conteúdo da página em "seções"-->
+<h2>Objetivo</h2><!--Meu objetivo-->
     <p>Atuar como um desenvolvedor Fullstack júnior em projetos de tecnologia e inovação. </p>
 </section>
 
-<section> <!--Minhas formações-->
-<h2>Formação acadêmica</h2>
-     <ul>
+<section class="card"> 
+<h2>Formação acadêmica</h2><!--Minhas formações-->
+     <ul><!--Lista não ordenada, cria lista com marcadores, dentro delas
+        utlizamos as "li" para incluir cada item da lista-->
      <li> Ensino Médio Conpleto</li>
      <li>Cursando Segurança da Informação</li>
      <li>Cursando Programação FullStack</li>
      </ul>
 </section>
 
-<section> <!--Minhas experiências profissionais-->
+<section class="card"> <!--Minhas experiências profissionais-->
 <h2>Experiência Profissional</h2>
      <ul>
      <li>Supervisor de Portaria Remota - Grupo Castelo Borges - 2024 até o momento</li>
      </ul>
 </section>
 
-<section> <!--Falar um pouco sobre mim é interessante.-->
+<section class="card"> <!--Sobre mim-->
 <h2>Sobre mim</h2>
      <p>Sou Samuel Sobreira, atualmente cursando Segurança da Informação e atuo como Supervisor de Portaria Remota <br>
      Sou apaixonado por tecnologia, suas evoluções e mudanças, atualmente passei a me interessar por programação e <br> 
@@ -43,5 +53,11 @@
      meus conhecimentos e continuar evoluindo na área.
      </p>
 </section>
+</main>
+
+<div class="print button">
+ <button onclick="window.print()">Baixar como PDF</button>
+</div>
+
 </body>
 </html>
