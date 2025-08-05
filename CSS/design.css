@@ -98,15 +98,16 @@ h1 {
     color: #111;
  }
 
- #theme-toggle:checked ~ body {
+ body:has(#theme-toggle:checked) {
     background-color: #ffffff;
     color: #111;
  }
 
- #theme-toggle:checked ~ .card {
+ body:has(#theme-toggle:checked) .card {
     background-color: #ffffff;
     color:#111;
     border-color: #cccccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
  }
 
  #theme-toggle:checked ~ .theme-label {
