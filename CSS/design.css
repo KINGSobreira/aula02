@@ -91,14 +91,7 @@ h1 {
     user-select: none;
  }
  /*Modo Claro (Quando o checkbox estiver marcado) */
- #theme-toggle:checked ~ header,
- #theme-toggle:checked ~ main,
- #theme-toggle:checked ~ .print-button {
-    background-color: #f4f4f4;
-    color: #111;
- }
-
- body:has(#theme-toggle:checked),
+  body:has(#theme-toggle:checked),
  @media (prefers-color-scheme: light) {
    body{
     background-color: #ffffff;
@@ -147,3 +140,4 @@ color: white;
         width: 100%;
     }
  }
+}
