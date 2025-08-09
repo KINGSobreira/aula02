@@ -81,7 +81,7 @@ h1 {
  }
 
  /* Estilo visual do botão de tema */
- /theme-label {
+  theme-label {
     display: block;
     text-align: right;
     cursor: pointer;
@@ -91,39 +91,72 @@ h1 {
     user-select: none;
  }
  /*Modo Claro (Quando o checkbox estiver marcado) */
-  body:has(#theme-toggle:checked),
- @media (prefers-color-scheme: light) {
-   body{
+  body:has(#theme-toggle:checked) {
+   
     background-color: #ffffff;
     color: #111;
  }
 
- .card {
+  body:has(#theme-toggle:checked) .card {
     background-color: #ffffff;
     color:#111;
     border-color: #cccccc;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
  }
 
- h1 {
+  body:has(#theme-toggle:checked) h1 {
      color: #0d47a1;
  }
- h2 {
+  body:has(#theme-toggle:checked) h2 {
      color: #1565c0;
 }
-.info {
+  body:has(#theme-toggle:checked) .info {
      color: #333;
 }
-.theme-label {
+  body:has(#theme-toggle:checked) .theme-label {
      color: #111;
 }
-.print-button button {
+  body:has(#theme-toggle:checked) .print-button button {
 background-color: #1976d2;
 color: white;
 }
-.print-button button:hover {
+  body:has(#theme-toggle:checked) .print-button button:hover {
    background-color: #0d47a1;
 }
+
+/* Modo Claro (Pelo sistema) */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #ffffff;
+        color: #111;
+    }
+    .card {
+        background-color: #ffffff;
+        color: #111;
+        border-color: #cccccc;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+    h1 {
+        color: #0d47a1;
+    }
+    h2 {
+        color: #1565c0;
+    }
+    .info {
+        color: #333;
+    }
+    .theme-label {
+        color: #111;
+    }
+    .print-button button {
+        background-color: #1976d2;
+        color: white;
+    }
+    .print-button button:hover {
+        background-color: #0d47a1;
+    }
+}
+
 
  /*Responsivo (MOBILE) */
  @media (max-width: 600px) {
@@ -140,4 +173,3 @@ color: white;
         width: 100%;
     }
  }
-}
