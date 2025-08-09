@@ -81,7 +81,7 @@ h1 {
  }
 
  /* Estilo visual do botão de tema */
-  theme-label {
+  .theme-label {
     display: block;
     text-align: right;
     cursor: pointer;
