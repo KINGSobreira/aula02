@@ -177,7 +177,7 @@ color: white;
 /*Foto de perfil */
 
 .perfil {
-    display: center;
+    text-align: center;
     margin-top: 20px;
 }
 
