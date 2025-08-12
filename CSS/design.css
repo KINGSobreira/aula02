@@ -174,7 +174,7 @@ color: white;
     }
  
 
-/*Foto de perfil */
+/*Foto de perfil e redes sociais */
 
 .perfil {
     text-align: center;
@@ -205,12 +205,6 @@ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 .redes a:hover {
     color: #1f6feb;
 }
-
-
-
-
-
-
 
 
 }
