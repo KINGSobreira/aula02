@@ -176,6 +176,7 @@ color: white;
 /*Foto de perfil e redes sociais */
 
 .perfil {
+    position: relative;
     text-align: center;
     margin-top: 20px;
 }
@@ -186,8 +187,6 @@ width: 140px;
 height: 140px;
 object-fit: cover;
 border-radius: 50%;
-left: 80%;
-top: 5%;
 border: 3px solid #58a6ff;
 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 max-width: 100%;
