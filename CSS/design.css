@@ -157,7 +157,6 @@ color: white;
     }
 }
 
-
  /*Responsivo (MOBILE) */
  @media (max-width: 600px) {
     body {
@@ -207,4 +206,3 @@ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 
-}
