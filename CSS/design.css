@@ -172,4 +172,46 @@ color: white;
     .print-button button {
         width: 100%;
     }
- }
+ 
+
+/*Foto de perfil */
+
+.perfil {
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.perfil img {
+width: 120px;
+height: 120px;
+object-fit: cover;
+border-radius: 50%;
+border: 3px solid #58a6ff;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.redes {
+    margin-top: 10px;
+}
+
+.redes a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 8px;
+    transition: color 0.3s;
+}
+
+.redes a:hover {
+    color: #1f6feb;
+}
+
+
+
+
+
+
+
+
+}
